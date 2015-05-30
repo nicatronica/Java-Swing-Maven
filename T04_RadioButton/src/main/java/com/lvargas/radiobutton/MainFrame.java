@@ -41,7 +41,7 @@ public class MainFrame extends javax.swing.JFrame {
         javaRbtn.setText("java");
         javaRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                javaRbtnActionPerformed(evt);
+                answerRbtnActionPerformed(evt);
             }
         });
 
@@ -49,7 +49,7 @@ public class MainFrame extends javax.swing.JFrame {
         cppRbtn.setText("c++");
         cppRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cppRbtnActionPerformed(evt);
+                answerRbtnActionPerformed(evt);
             }
         });
 
@@ -57,7 +57,7 @@ public class MainFrame extends javax.swing.JFrame {
         csharpRbtn.setText("c#");
         csharpRbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                csharpRbtnActionPerformed(evt);
+                answerRbtnActionPerformed(evt);
             }
         });
 
@@ -106,17 +106,9 @@ public class MainFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void csharpRbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_csharpRbtnActionPerformed
-//        answerLbl.setText(evt.getActionCommand());
-    }//GEN-LAST:event_csharpRbtnActionPerformed
-
-    private void javaRbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_javaRbtnActionPerformed
-//        answerLbl.setText(evt.getActionCommand());
-    }//GEN-LAST:event_javaRbtnActionPerformed
-
-    private void cppRbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cppRbtnActionPerformed
-//        answerLbl.setText(evt.getActionCommand());
-    }//GEN-LAST:event_cppRbtnActionPerformed
+    private void answerRbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_answerRbtnActionPerformed
+        answerLbl.setText(evt.getActionCommand());
+    }//GEN-LAST:event_answerRbtnActionPerformed
 
     /**
      * @param args the command line arguments

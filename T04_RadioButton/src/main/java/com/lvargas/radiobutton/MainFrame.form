@@ -76,7 +76,7 @@
         <Property name="text" type="java.lang.String" value="java"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="javaRbtnActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerRbtnActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="cppRbtn">
@@ -87,7 +87,7 @@
         <Property name="text" type="java.lang.String" value="c++"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cppRbtnActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerRbtnActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="csharpRbtn">
@@ -98,7 +98,7 @@
         <Property name="text" type="java.lang.String" value="c#"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="csharpRbtnActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="answerRbtnActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="answerLbl">
